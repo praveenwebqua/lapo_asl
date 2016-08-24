@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/date"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Date"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/time"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Time"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter your place"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:gravity="top"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/purpose"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Enter your suggestions"
+                android:lines="4"
+                android:padding="10dp"
+
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#20FFFFFF"
+            android:padding="2dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/mobile"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter your mobile"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="@dimen/red_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red_button"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

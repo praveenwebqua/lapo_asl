@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D7C9"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <ImageView
+        android:id="@+id/blood_advt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                android:text="A+"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:text="B+"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:text="AB+"
+                android:elevation="10dp"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:elevation="10dp"
+                android:textStyle="bold"
+                android:text="O+"
+                android:textColor="#FF0000" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:text="A-"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:elevation="10dp"
+                android:text="B-"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="AB-"
+                android:textColor="#FF0000" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:elevation="10dp"
+                android:text="O-"
+                android:textColor="#FF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:textColor="#FFFFFF"
+                android:text="Search" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                android:textColor="#FFFFFF"
+                android:text="Donate" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#FFFFFF"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book" />
+
+</LinearLayout>
